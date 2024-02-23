@@ -58,15 +58,19 @@
                     <div class="mb-3">
                       <div class="row g-0">
                         <div class="col-md-4 text-end">
-                          <img
-                            src="./Netflix-assets/assets/kids_icon.png"
-                            alt="Avatar"
-                            class="img-fluid mb-5"
-                            style="width: 100%"
-                          />
+                          <div class="position-relative">
+                            <img src="./Netflix-assets/assets/kids_icon.png" alt="Avatar" class="img-fluid "
+                            style="width: 100%" />
+                            <div class="position-absolute bottom-0 start-0 bg-dark p-1 mb-1 ms-1 rounded-circle ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" heigth="16" fill="currentColor" class="bi bi-pen" viewBox="0 0 16 16">
+                                <path d="m13.498.795.149-.149a1.207 1.207 0 1 1 1.707 1.708l-.149.148a1.5 1.5 0 0 1-.059 2.059L4.854 14.854a.5.5 0 0 1-.233.131l-4 1a.5.5 0 0 1-.606-.606l1-4a.5.5 0 0 1 .131-.232l9.642-9.642a.5.5 0 0 0-.642.056L6.854 4.854a.5.5 0 1 1-.708-.708L9.44.854A1.5 1.5 0 0 1 11.5.796a1.5 1.5 0 0 1 1.998-.001m-.644.766a.5.5 0 0 0-.707 0L1.95 11.756l-.764 3.057 3.057-.764L14.44 3.854a.5.5 0 0 0 0-.708z"/>
+                              </svg>
+                              </svg>
+                            </div>
+                          </div>
                         </div>
                         <div class="col-md-8">
-                          <div class="card-body p-4">
+                          <div class="card-body ps-4">
                             <div class="row pt-1">
                               <div class="col-12 mb-3 p-2 bg-secondary">
                                 <h6>Strive Student</h6>
@@ -79,7 +83,7 @@
                             <div>
                               <div class="dropdown mb-3">
                                 <div class="nav-item dropdown">
-                                  <button type="button" class="btn btn-outline-light rounded-0">
+                                  <button type="button" class="btn bg-black border-secondary rounded-0">
                                     <a
                                       class="nav-link dropdown-toggle"
                                       href="#"
@@ -112,28 +116,30 @@
                                 <div class="col-12 mb-3">
                                   <p>show titles of all maturity ratings for this profile.</p>
                                   <div class="mb-4">
-                                    <button class="btn text-left btn-outline-secondary text-muted">EDIT</button>
+                                    <button class="btn text-secondary text-left bg-black border-secondary text-muted">
+                                      EDIT
+                                    </button>
                                   </div>
                                   <hr class="mt-0 mb-4" />
                                   <div class="row pt-1">
-                                    <div class="col-12 mb-1">
+                                    <div>
                                       <h5 class="text-muted mb-3">Autoplay controls</h5>
 
-                                      <div class="form-check checkbox-xl text-muted col-auto">
+                                      <div class="checkbox-xl text-muted">
                                         <input
-                                          class="form-check-input"
+                                          class="form-check-input border-secondary shadow none bg-dark"
                                           type="checkbox"
                                           value=""
                                           id="checkbox-3"
                                           checked
                                         />
-                                        <label class="form-check-label" for="checkbox-3"
+                                        <label class="form-check-label mb-3" for="checkbox-3"
                                           >autplay next episode in aserieas on all device</label
                                         >
                                       </div>
                                       <div class="form-check checkbox-xl text-muted">
                                         <input
-                                          class="form-check-input text-muted mt-2"
+                                          class="form-check-input bg-dark shadow-none border-secondary"
                                           type="checkbox"
                                           value=""
                                           id="checkbox-3"
@@ -149,11 +155,6 @@
                               </div>
                             </div>
                           </div>
-                          <div class="d-flex justify-content-start">
-                            <a href="#!"><i class="fab fa-facebook-f fa-lg me-3"></i></a>
-                            <a href="#!"><i class="fab fa-twitter fa-lg me-3"></i></a>
-                            <a href="#!"><i class="fab fa-instagram fa-lg"></i></a>
-                          </div>
                         </div>
                       </div>
                     </div>
@@ -165,13 +166,13 @@
                       <div class="mb-3">
                         <div class="row g-0">
                           <div class="row bg-dark">
-                            <div class="col col-3 g-1">
+                            <div class="col col-4 g-1">
                               <a class="btn btn-light rounded-0 ms-2 mb-4 px-5"> SAVE </a>
                             </div>
-                            <div class="col col-2">
+                            <div class="col col-4 g-1">
                               <a class="btn btn-outline-secondary rounded-0 ms-2 mb-4 px-3"> CANCEL </a>
                             </div>
-                            <div class="col col-4">
+                            <div class="col col-4 g-1">
                               <a class="btn btn-outline-secondary rounded-0 ms-2 mb-4"> DELETE PROFILE </a>
                             </div>
                           </div>
